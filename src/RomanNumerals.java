@@ -19,45 +19,45 @@ public class RomanNumerals
 //				res+='M';
 //				i-=900;
 //			}
-//			else if(i>=500)
-//			{
-//				res+='D';
-//				i-=500;
-//			}
-//			else if(i>=400)
-//			{
-//				res+='C';
-//				res+='D';
-//				i-=400;
-//			}
-//			else if(i>=100)
-//			{
-//				res+='C';
-//				i-=100;
-//			}
-//			else if(i>=90)
-//			{
-//				res+='X';
-//				res+='C';
-//				i-=90;
-//			}
-//			else if(i>=50)
-//			{
-//				res+='L';
-//				i-=50;
-//			}
-//			else if(i>=40)
-//			{
-//				res+='X';
-//				res+='L';
-//				i-=40;
-//			}
-//			else if(i>=10)
-//			{
-//				res+='X';
-//				i-=10;
-//			}
-			 if(i>=9)
+			if(i>=500)
+			{
+				res+='D';
+				i-=500;
+			}
+			else if(i>=400)
+			{
+				res+='C';
+				res+='D';
+				i-=400;
+			}
+			else if(i>=100)
+			{
+				res+='C';
+				i-=100;
+			}
+			else if(i>=90)
+			{
+				res+='X';
+				res+='C';
+				i-=90;
+			}
+			else if(i>=50)
+			{
+				res+='L';
+				i-=50;
+			}
+			else if(i>=40)
+			{
+				res+='X';
+				res+='L';
+				i-=40;
+			}
+			else if(i>=10)
+			{
+				res+='X';
+				i-=10;
+			}
+			else if(i>=9)
 			{
 				res+='I';
 				res+='X';
