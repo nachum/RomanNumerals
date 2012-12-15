@@ -57,13 +57,13 @@ public class RomanNumerals
 //				res+='X';
 //				i-=10;
 //			}
-//			else if(i>=9)
-//			{
-//				res+='I';
-//				res+='X';
-//				i-=9;
-//			}
-			 if(i>=5)
+			 if(i>=9)
+			{
+				res+='I';
+				res+='X';
+				i-=9;
+			}
+			 else if(i>=5)
 			{
 				res+='V';
 				i-=5;
