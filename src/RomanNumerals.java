@@ -8,18 +8,18 @@ public class RomanNumerals
 			return res;
 		for(int i=number; i>0 ;)
 		{
-//			if(i>=1000)
-//			{
-//				res+='M';
-//				i-=1000;
-//			}
-//			else if(i>=900 )
-//			{
-//				res+='C';
-//				res+='M';
-//				i-=900;
-//			}
-			if(i>=500)
+			if(i>=1000)
+			{
+				res+='M';
+				i-=1000;
+			}
+			else if(i>=900 )
+			{
+				res+='C';
+				res+='M';
+				i-=900;
+			}
+			else if(i>=500)
 			{
 				res+='D';
 				i-=500;
